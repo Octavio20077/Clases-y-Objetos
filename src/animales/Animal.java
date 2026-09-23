@@ -15,6 +15,13 @@ class Perro extends Animal {
         System.out.println("Puedo hacer sonidos");
     }
 
+   @Override
+    protected void dormir(){
+        System.out.println("Puedo dormir 15 horas al dia");
+
+
+    }
+
 }
 
 class PruebaAnimal {
